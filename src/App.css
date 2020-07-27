@@ -37,7 +37,7 @@ nav section h6{
   font-size: 14px;
 }
 
-nav ul{
+/* nav ul{
   list-style: none;
   margin: auto 0;
   border: 2px solid pink;
@@ -47,5 +47,14 @@ nav ul{
 nav ul li{
   border: 2px solid blue;
   width: 100%;
-}
+} */
 
+.links{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.links a{
+  width: 100%;
+  color: black;
+}

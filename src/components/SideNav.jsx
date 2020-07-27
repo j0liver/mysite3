@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom'
 //img 
 import me from '../imgs/Facetune.jpg'
 
@@ -16,11 +16,17 @@ const SideNav = () => {
                 <h6>Houston Tx</h6>
             </section>
 
-            {/* <ul>
+            {/* <ol>
                 <li>home</li>
                 <li>projects</li>
                 <li>Resume</li>
-            </ul> */}
+            </ol> */}
+            
+            <section className='links'>
+                <Link>Home</Link>
+                <Link>Projects</Link>
+                <Link>Resume</Link>
+            </section>
 
             <section>
                 <a href="">
