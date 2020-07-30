@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 //img 
 import me from '../imgs/Facetune.jpg'
 
+//icons
+// impor
 const SideNav = () => {
 
     return(
@@ -28,14 +30,14 @@ const SideNav = () => {
                 <Link>Resume</Link>
             </section>
 
-            <section>
+            {/* <section>
                 <a href="">
                     <img src="" alt=""/>
                 </a>
                 <a href="">
                     <img src="" alt=""/>
                 </a>
-            </section>
+            </section> */}
         </nav>
     )
 }
