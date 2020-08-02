@@ -30,7 +30,7 @@ const SideNav = () => {
                 <Link>Resume</Link>
             </section>
 
-            <section>
+            <section className='social'>
                 <a href="">
                     <FaLinkedin />
                 </a>
