@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import me from '../imgs/Facetune.jpg'
 
 //icons
-// impor
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 const SideNav = () => {
 
     return(
@@ -30,14 +30,14 @@ const SideNav = () => {
                 <Link>Resume</Link>
             </section>
 
-            {/* <section>
+            <section>
                 <a href="">
-                    <img src="" alt=""/>
+                    <FaLinkedin />
                 </a>
                 <a href="">
-                    <img src="" alt=""/>
+                    <FaGithub/>
                 </a>
-            </section> */}
+            </section>
         </nav>
     )
 }
