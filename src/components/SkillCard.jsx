@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SKillCard = () => {
+const SkillCard = () => {
     
     return(
         <section>
@@ -8,3 +8,5 @@ const SKillCard = () => {
         </section>
     )
 }
+
+export default SkillCard
