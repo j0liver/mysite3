@@ -9,7 +9,9 @@ const Home = () => {
                 <p>Im a person that likes to learn new languages, frameworks and new challenges. <br/>
                     </p>
             </section>
-
+                <p>
+                    talk about why i like tech etc adfkajdksafsa daf sa sda
+                </p>
             <section>
                 
             </section>
