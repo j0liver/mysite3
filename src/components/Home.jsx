@@ -12,6 +12,7 @@ const Home = () => {
                 <p>
                     talk about why i like tech etc adfkajdksafsa daf sa sda
                 </p>
+                {/* links here to message? */}
             <section>
                 
             </section>
