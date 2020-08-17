@@ -17,13 +17,7 @@ const SideNav = () => {
                 <h4>Full Stack Engineer</h4>
                 <h6>Houston Tx</h6>
             </section>
-
-            {/* <ol>
-                <li>home</li>
-                <li>projects</li>
-                <li>Resume</li>
-            </ol> */}
-            
+             
             <section className='links'>
                 <Link>Home</Link>
                 <Link>Projects</Link>
