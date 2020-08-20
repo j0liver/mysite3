@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import me from '../imgs/Facetune.jpg'
 
 //icons
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaMapMarkerAlt } from 'react-icons/fa';
 const SideNav = () => {
 
     return(
@@ -16,7 +16,10 @@ const SideNav = () => {
                     <img src={me} alt=""/>
                 </div>
                 <h4>Full Stack Engineer</h4>
-                <h6>Houston Tx</h6>
+                <div>
+                    <FaMapMarkerAlt />
+                    <h6>Houston Tx</h6>
+                </div>
             </section>
              
             <section className='links'>
