@@ -16,15 +16,15 @@ const SideNav = () => {
                     <img src={me} alt=""/>
                 </div>
                 <h4>Full Stack Engineer</h4>
-                <div>
+                <section>
                     <FaMapMarkerAlt />
                     <h6>Houston Tx</h6>
-                </div>
+                </section>
             </section>
              
             <section className='links'>
-                <Link>Home</Link>
-                <Link>Projects</Link>
+                <Link to='/'>Home</Link>
+                <Link to='projects'>Projects</Link>
                 <Link>Resume</Link>
             </section>
 
