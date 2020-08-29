@@ -12,9 +12,9 @@ const Projects = () => {
     
     return(
         <div className='projects'>
-            {/* <h1>whywork</h1>
+            <h1>whywork</h1>
             <p>please work</p>
-            <ProjectsCard data={p1}/> */}
+            <ProjectsCard data={p1}/>
         </div>
     )
 }
