@@ -1,10 +1,19 @@
 .projectCard{
-    width: 25%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 3px solid blueviolet;
+    margin-top: 25px;
+    border: 1px solid black;
+    box-shadow: gray;
+}
+
+@media (max-width: 760px){
+    .projectCard{
+        width: 100%;
+        border-top: 2px solid black;
+    }
 }
 
 .projectCard h3{
@@ -23,14 +32,12 @@
 }
 
 .projectCard p{
-    border: 1px solid pink;
     width: 90%;
     font-size: 16px;
+    margin-top: 10px;
 }
 
 .projectCard .projectButton{
-    color: red;
-    border: 2px solid pink;
     width: 80%;
     display: flex;
     justify-content: space-around;
