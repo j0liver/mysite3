@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
 import * as serviceWorker from './serviceWorker';
 
 //router
 import {BrowserRouter as Router} from 'react-router-dom'
 
+//components
+import App from './App';
+import SideNav from './components/SideNav'
+
 ReactDOM.render(
   <Router>
+    <SideNav />
     <App />
   </Router>,
   document.getElementById('root')
