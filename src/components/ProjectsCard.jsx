@@ -5,7 +5,7 @@ const ProjectsCards = (props) => {
 
     return(
         <section className='projectCard'>
-            <h3>test1</h3>
+            <h3>{props.name}</h3>
             <div className='cardContainer'>
                  <img src={props.data} alt=""/>
             </div>
@@ -13,7 +13,7 @@ const ProjectsCards = (props) => {
             <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
             <div className='projectButton'>
                 <button>View Live</button>
-                <button>Code</button>
+                <button>View Code</button>
             </div>
         </section>
     )

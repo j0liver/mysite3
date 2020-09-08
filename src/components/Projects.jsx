@@ -13,11 +13,11 @@ const Projects = () => {
     
     return(
         <div className='projects'>
-            <h1>whywork</h1>
+            <h1>Projects</h1>
             <section className='projectList'>
-                <ProjectsCard data={p1}/>
-                <ProjectsCard data={p2}/>
-                <ProjectsCard data={p3}/>
+                <ProjectsCard data={p1} name='interviewQ'/>
+                <ProjectsCard data={p2} name='Guidr'/>
+                <ProjectsCard data={p3} name='Park Passport'/>
             </section>
             
         </div>
