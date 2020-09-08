@@ -3,13 +3,11 @@
 	text-align: center;
 	display: flex;
 	justify-content: flex-end;
-	border: 1px solid blue;
 	width: 85%;
 }
 @media (max-width: 760px){
 		.App{
 		  width: 75%;
-		  border: 2px solid pink;
 		}
 	}
 /* http://meyerweb.com/eric/tools/css/reset/ 

@@ -8,7 +8,7 @@ const Home = () => {
 
     return(
         <section className='HomeTextContainer'>
-            <section>
+            <section className='text'>
                 <h5>Hello my name is Joseph Oliver </h5>
                 <p>Im a person that likes to learn new languages, frameworks and new challenges. Im always consuming  <br/>
                     </p>

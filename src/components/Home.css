@@ -6,8 +6,14 @@
 .HomeTextContainer{
     /* border: 1px solid blue; */
     width: 100%;
+    height: 97vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.HomeTextContainer .text{
+    margin: 250px auto;
 }
