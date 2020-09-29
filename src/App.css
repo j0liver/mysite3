@@ -4,6 +4,8 @@
 	display: flex;
 	justify-content: flex-end;
 	width: 85%;
+	height: auto;
+	background-color: #8c8c8c;
 }
 @media (max-width: 760px){
 		.App{

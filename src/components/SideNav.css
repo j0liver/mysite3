@@ -9,6 +9,7 @@ nav{
     margin: auto 0;
     position: fixed;
     text-align: center;
+    background-color: #333333
   }
     @media (max-width: 760px){
       nav{
