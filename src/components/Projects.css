@@ -1,9 +1,14 @@
 .projects{
     width: 100%;
-    height: auto;
-    /* vertical-align: middle;  */
-
+    height: 100%;
+    
 }
+@media(max-width: 760px){
+    .projects{
+        height: auto;
+    }
+}
+
 .projects h1{
     margin: 20px 0;
 }

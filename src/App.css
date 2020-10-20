@@ -4,12 +4,13 @@
 	display: flex;
 	justify-content: flex-end;
 	width: 85%;
-	height: auto;
+	min-height: 100vh;
 	background-color: #8c8c8c;
 }
 @media (max-width: 760px){
 		.App{
 		  width: 75%;
+		  height: auto;
 		}
 	}
 /* http://meyerweb.com/eric/tools/css/reset/ 
