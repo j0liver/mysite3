@@ -5,7 +5,8 @@
     flex-wrap: wrap;
     width: 100%;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: #f8f8ff;
+    margin-top: 2em;
 }
 
 .skills h5{
